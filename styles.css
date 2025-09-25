@@ -1,0 +1,56 @@
+footer div{
+    background-color: green;
+
+
+}
+
+header{
+    background-color: blue;
+}
+
+body{
+    background-color: yellow;
+}
+
+.nav-bar{
+    position:sticky;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.menu{
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+div.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px;
+    margin: 10%;
+    background-color: lightgrey;
+}
+
+div.box img{
+    float: left;
+    margin: 20px;
+    object-fit: contain;;
+}
