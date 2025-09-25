@@ -1,31 +1,41 @@
-footer div{
-    background-color: green;
-
-
+footer{
+    background-color: #456882;
+    margin-top: 5%;
 }
 
 header{
-    background-color: blue;
+    text-align: center;
+    margin: 0% 5%;
+    background-color: #456882;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
 }
 
 body{
-    background-color: yellow;
+    background-color: #C9CDCF;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-bar{
-    position:sticky;
+    position: sticky;
     display: flex;
     flex-direction: row ;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: #1B3C53;
     flex-wrap: wrap;
     gap: 20px;
     width: 100%;
 }
 
+nav{
+    box-shadow: 2px 0px 5px grey;
+    border-radius: 0px 0px 8px 8px;
+}
+
 .menu{
-    background-color: orange;
+    background-color: #D2C1B6;
     padding: 10px;
     margin: 10px;
     border: 2px solid black;
@@ -44,13 +54,35 @@ div.menu a{
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 2px 2px 5px grey;
-    padding: 10px;
-    margin: 10%;
-    background-color: lightgrey;
+    padding: 5px;
+    margin: 0% 5%;
+    background-color: #D2C1B6;
+    display: inline-block;
 }
 
 div.box img{
     float: left;
     margin: 20px;
-    object-fit: contain;;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contianer div{
+    padding: 10px;
+    margin: 5px;
+}
+
+#about-me{
+    grid-column: span 2;
 }
